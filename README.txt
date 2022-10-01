@@ -26,7 +26,8 @@ Project code structure :
     db
         database.py : main connection util for db connection
     endpoint
-        crud.py : consists of endpoints for crud operations
+        crud.py : consists of endpoints for crud operations for listing table, 
+		 if new tables wanted to added, new files for each table is suggested
         api.py : api routing
     model
         listing.py : base "Listing" class
