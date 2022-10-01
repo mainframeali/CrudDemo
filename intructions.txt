@@ -16,4 +16,8 @@ test:
 	python manuel_test.py : for running from terminal
 	test directory : for running for IDE
 
+Note : Project is created via JetBrains PyChram tool and 
+web server libraries automatically added which are not added here.
+"venv" library directory is also should be added to run the project
+
 
