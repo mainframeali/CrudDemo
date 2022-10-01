@@ -1,0 +1,19 @@
+Prerequisites:
+   DB : My Sql installation
+
+   Python :
+	pip install fastapi
+	pip install uvicorn
+	pip install pymysql
+	pip install SQLAlchemy
+    pip install requests
+
+run : under RubikCrudDemo main folder
+	python main.py
+	    application runs on localhost:8000 address
+
+test:
+	python manuel_test.py : for running from terminal
+	test directory : for running for IDE
+
+
