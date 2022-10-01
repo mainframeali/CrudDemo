@@ -5,9 +5,9 @@ Features : Lists, adds, updates and deletes from "listings" MySql table,
     "listing_id" is an autoincrement field
 
 Documents :
-			FestApi Swagger http://127.0.0.1:8000/docs (after running project)
-		    readme.txt (this file)
-		    instructions.txt
+	FestApi Swagger http://127.0.0.1:8000/docs (after running project)
+	readme.txt (this file)
+	instructions.txt
 
 Sql : sql/db_scripts.sql
 
@@ -32,4 +32,10 @@ Project code structure :
         listing.py : base "Listing" class
         request.py : request objects for Listing
         response.py : common result object for all requests
-
+	
+Sample test output:
+python manuel_test.py
+{'data': {'price': 124001, 'listing_id': 1, 'address': 'test address 124'}, 'code': 200, 'message': 'Listing retrieved successfully', 'error': False}
+{'data': {'listing_id': 21}, 'code': 200, 'message': 'Listing added successfully.', 'error': False}
+{'data': {'price': 124001, 'listing_id': 1, 'address': 'test address 124'}, 'code': 200, 'message': 'Listing updated successfully', 'error': False}
+{'data': {'listing_id': 7}, 'code': 200, 'message': 'Listing deleted successfully', 'error': False}
